@@ -1,0 +1,19 @@
+from typing import Optional
+
+from core.orm.migration.Migration import Migration
+
+
+class %MIGRATION_CLASS_NAME%Migration(Migration):
+
+    class Meta:
+        identifier: str = "%IDENTIFIER%"
+        table: str = "%TABLE%"
+        primary_key: Optional[str] = %PRIMARY_KEY%
+
+    def up(self):
+        self.engine.create_table(self.table(), {
+            # define your fields here
+        })
+
+    def down(self):
+        self.engine.drop_table(self.table())

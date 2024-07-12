@@ -1,0 +1,90 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="66" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="9">
+            <item index="0" class="java.lang.String" itemvalue="open-modal" />
+            <item index="1" class="java.lang.String" itemvalue="close-modal" />
+            <item index="2" class="java.lang.String" itemvalue="x-data" />
+            <item index="3" class="java.lang.String" itemvalue="active" />
+            <item index="4" class="java.lang.String" itemvalue="page" />
+            <item index="5" class="java.lang.String" itemvalue="state" />
+            <item index="6" class="java.lang.String" itemvalue="open-modal-data" />
+            <item index="7" class="java.lang.String" itemvalue="modal-data" />
+            <item index="8" class="java.lang.String" itemvalue="name" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="16">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="image-upload" />
+            <item index="7" class="java.lang.String" itemvalue="app-dialog" />
+            <item index="8" class="java.lang.String" itemvalue="sl-alert" />
+            <item index="9" class="java.lang.String" itemvalue="sl-icon" />
+            <item index="10" class="java.lang.String" itemvalue="sl-select" />
+            <item index="11" class="java.lang.String" itemvalue="sl-option" />
+            <item index="12" class="java.lang.String" itemvalue="file-path" />
+            <item index="13" class="java.lang.String" itemvalue="dotlottie-player" />
+            <item index="14" class="java.lang.String" itemvalue="lottie-player" />
+            <item index="15" class="java.lang.String" itemvalue="title-bar" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyCallingNonCallableInspection" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="3.13" />
+            <item index="1" class="java.lang.String" itemvalue="3.9" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E301" />
+          <option value="E401" />
+          <option value="E701" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N806" />
+          <option value="N813" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="int.strftime" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
